@@ -1,0 +1,21 @@
+@charset utf-8;
+body{background-color:#000;color:#FFF;display:block;width:100%;text-align:center;position:relative}
+#outer{width:100%;text-align:center}
+#headerbox{min-width:1200px;width:1200px px;min-height:175px;display:inline-block}
+nav{margin-top:50px}
+#topLeftImage{position:relative;min-width:150px;min-height:150px;display:inline-block;margin-left:75px;margin-top:25px;float:left}
+#tableHolder{display:inline-block;float:right;margin-top:75px;margin-right:75px;margin-left:280px;position:static}
+#spacer{min-width:200px;display:inline-block}
+.toolbar{margin-top:0;margin-left:10px;margin-right:10px;padding-left:20px;padding-right:20px;border-top:solid;border-top-color:#00B2FF;display:inline-block;text-align:center;position:relative;width:70px;cursor:pointer;border-width:2px}
+.toolbar[data-core=1]{color:#00B2FF;font-weight:700;margin-top:17px;border-width:5px}
+.main{background-color:#000;width:800px;height:auto;clear:both;display:block;text-align:left;padding-left:15px;padding-right:5px;padding-top:5px;margin:auto}
+#Projects img{cursor:pointer;margin:6px}
+#Projects img:hover{opacity:0.5}
+#Projects{background-color:#000;height:600px}
+#bottom{clear:both}
+.info{height:auto;display:inline-block;width:500px;background-color:#000;color:#FFF;position:absolute;top:11px;right:0;padding:0 6px 6px 20px}
+footer p{margin:0}
+span{font-weight:700}
+span:hover{cursor:pointer;text-decoration:underline}
+h6{margin:2px}
+#topSlide,#bottomSlide{position:relative}
