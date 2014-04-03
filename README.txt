@@ -5,6 +5,8 @@ ToDo
 	Create more personalized paragraph in about me
 
 Versions
+V1.3.22
+	Proof read Items
 V1.3.20 
 	Better Line Breaks in Arm Info
 V1.3.19
