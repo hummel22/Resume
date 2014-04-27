@@ -5,6 +5,13 @@ ToDo
 	Create more personalized paragraph in about me
 
 Versions
+V1.3.25
+	Added link to Photography Gallery
+	Final Proof Read
+	Upload to Amazon Web Services
+	
+V1.3.24
+	Add Flickr Photo Galleries
 V1.3.22
 	Proof read Items
 V1.3.20 
