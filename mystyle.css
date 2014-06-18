@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color:#000;
+	background-color:#0D171A;
 	color: #FFF;
 	display:block;
 	width:100%;
@@ -15,11 +15,16 @@ body {
 	text-align:center;
 }
 
+#Home {
+	padding-bottom:200px;
+}
+
 #headerbox {
 	min-width:1200px;
 	width:1200 px;
 	min-height:175px;
 	display:inline-block;
+	
 }
 
 nav {
@@ -49,6 +54,7 @@ nav {
 	margin-right:75px;
 	margin-left:280px;
 	position:static;
+
 }
 
 #spacer {
@@ -93,6 +99,7 @@ nav {
     padding-left:15px;
     padding-right:5px;
 	padding-top:5px;
+	padding-bottom:15px;
 	
 }
 #Projects img {
@@ -138,6 +145,12 @@ nav {
 
 footer p {
 	margin:0;
+}
+footer {
+	background-color:#193941;
+	margin-top:20px;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
 span{
