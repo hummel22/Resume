@@ -1,6 +1,11 @@
 // JavaScript Document
 $(document).ready(function() 
 {
+	var roverLoad = 0;
+	var photoLoad = 0;
+	var guiLoad = 0;
+	var armLoad = 0;
+	var resumeLoad =0;
 	$("#java").hide();
 	//NAVIGATION BAR
 	var old;
@@ -143,12 +148,30 @@ $(document).ready(function()
 				{
 					case 1:
 						$("#arduinoWords").delay(400).slideToggle(500);
+						if(roverLoad == 0)
+						{
+							var iframe = $("#frameRover");
+   						 	iframe.attr("src", iframe.data("src")); 
+							roverLoad = 1;
+						}
 						break;
 					case 2:
 						$("#roverWords").delay(400).slideToggle(500);
+						if(armLoad == 0)
+						{
+							var iframe = $("#frameArm");
+   						 	iframe.attr("src", iframe.data("src")); 
+							rarmLoad = 1;
+						}
 						break;
 					case 3:
 						$("#androidWords").delay(400).slideToggle(500);
+						if(guiLoad == 0)
+						{
+							var iframe = $("#frameGUI");
+   						 	iframe.attr("src", iframe.data("src")); 
+							guiLoad = 1;
+						}
 						break;
 				};
 				closed = 1;
@@ -192,6 +215,12 @@ $(document).ready(function()
 						break;
 					case 5:
 						$("#photoWords").delay(400).slideToggle(500);
+						if(photoLoad == 0)
+						{
+							var iframe = $("#framePhoto");
+   						 	iframe.attr("src", iframe.data("src")); 
+							photoLoad = 1;
+						}
 						break;
 					case 6:
 						$("#guiWords").delay(400).slideToggle(500);

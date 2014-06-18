@@ -153,3 +153,8 @@ h6 {
 	margin:2px;
 }
 
+iframe {
+	margin:auto;
+	display::block;
+}
+
