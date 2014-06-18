@@ -81,7 +81,7 @@ nav {
 
 
 .main {
-	background-color:#000 ;
+	background-color:#193941 ;
     width:800px;
     margin:auto;
    /* margin-top:25px;
@@ -117,11 +117,14 @@ nav {
 
 #topSlide {
 	position:relative;
+	background-color:#193941 ;
 }
 #bottomSlide{
 	position:relative;
+	background-color:#193941 ;
 }
 .info {
+	background-color:#193941 ;
 	height:auto;
 	display:inline-block;
 	width: 500px;
